@@ -1,0 +1,140 @@
+body {
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+#dash {
+    font-weight: 500;
+    font-size: larger;
+    letter-spacing: 1px;
+}
+
+ul li {
+    padding: 8px;
+    list-style: none;
+    color: aliceblue;
+}
+
+#footer {
+    margin-top: 220px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#inputsm {
+    width: 220px;
+    height: 30px;
+}
+
+table {
+    position: relative;
+    bottom: 10px;
+}
+
+table tr th {
+    font-weight: lighter;
+    font-size: small;
+    text-indent: 10px;
+    color: slategrey;
+}
+
+table tr td {
+    font-size: medium;
+    text-indent: 10px;
+}
+
+@media screen and (max-width:520px) {
+
+    body {
+        overflow: visible;
+        overflow-x: hidden;
+    }
+
+    .col-2 {
+        width: 100%;
+    }
+
+    .col-10 {
+        width: 100%;
+    }
+    #chart{
+        font-size: small;
+        flex-flow: column;
+    }
+   .col-4{
+    width: 100%;
+   
+   }
+   #pie{
+    position: relative;
+    right: 100px;
+   }
+   .col-8{
+    width: 100%;
+   }
+    #name{
+        width: 100%;
+    }
+    #name2 {
+        font-size: 12pt;
+        position: relative;
+        left: 5px;
+    }
+ 
+    #inputsm {
+        width: 120px;
+    }
+     Card{
+        width: 100%;
+     }
+    #yaya {
+        flex-flow: column;
+        row-gap: 10px;
+    }
+
+    .container-fluid {
+        width: 100%;
+    }
+
+    #sltp {
+        font-size: 9pt;
+    }
+
+    h6 {
+        font-size: 12pt;
+    }
+    table{
+        width: 100%;
+    }
+    .table{
+        width: 100%;
+    }
+    table tr th{
+        width: 100%;
+        font-size: 9pt;
+    }
+    table tr td{
+        width: 100%;
+        font-size: 9pt;
+    }
+    #abstract1{
+        font-size: small;
+        position: relative;
+        top: 5px;
+    }
+    #abstract{
+        display: none;
+    }
+    #ps{
+        width: 100%;
+    }
+    #input30{
+        display: none;
+    }
+    #down{
+        width: 100%;
+    }
+}
